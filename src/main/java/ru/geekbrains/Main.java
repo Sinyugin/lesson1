@@ -13,6 +13,6 @@ public class Main {
                 .gender("male")
                 .build();
 
-        System.out.println(person1);
+        System.out.println(person1.getFirstName());
     }
 }
