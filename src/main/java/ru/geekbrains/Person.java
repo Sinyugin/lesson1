@@ -10,6 +10,10 @@ public class Person {
     private final int age;
     private final String gender;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
     public Person(String firstName, String lastName, String middleName, String country, String address, String phone, int age, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;
