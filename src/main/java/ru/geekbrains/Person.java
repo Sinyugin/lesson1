@@ -79,19 +79,5 @@ public class Person {
         public Person build(){
             return new Person(firstName, lastName, middleName, country, address, phone, age, gender);
         }
-
-        @Override
-        public String toString() {
-            return "PersonBuilder{" +
-                    "firstName='" + firstName + '\'' +
-                    ", lastName='" + lastName + '\'' +
-                    ", middleName='" + middleName + '\'' +
-                    ", country='" + country + '\'' +
-                    ", address='" + address + '\'' +
-                    ", phone='" + phone + '\'' +
-                    ", age=" + age +
-                    ", gender='" + gender + '\'' +
-                    '}';
-        }
     }
 }
